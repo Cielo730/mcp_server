@@ -158,4 +158,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(run_agent_with_mcp())
     except Exception as e:
+
         print(f"\n Program crashed: {e}")
